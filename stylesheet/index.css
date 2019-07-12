@@ -11,15 +11,32 @@ html {
 
 body {
     height: 100vh;
+    background-color: #110040;
+    color: #3e8fe6;
 
 }
 
 .flex-start-mode {
     text-align: center;
+
 }
 .flex-start {
 border: 10px solid #3e8fe6;
+background-color: #220080;
+border-radius: 15px;
 height: 70%;
 width: 98%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+.flex-start-box {
+    border: 10px solid #110040;
+    height: 68%;
+    width: 27%;
+    background-color: #459fff;
+    border-radius: 15px;
 
 }
