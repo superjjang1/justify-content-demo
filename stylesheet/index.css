@@ -20,7 +20,7 @@ body {
     text-align: center;
 
 }
-.flex-start {
+.flex-start, .flexcenter-box{
 border: 10px solid #3e8fe6;
 background-color: #220080;
 border-radius: 15px;
@@ -32,7 +32,10 @@ align-items: center;
 
 }
 
-.flex-start.hidden {
+.flex-start.hidden, .flex-end.hidden {
+    display: none;
+}
+.flexcenter.hidden, .flex-space-around.hidden{
     display: none;
 }
 
@@ -43,4 +46,48 @@ align-items: center;
     background-color: #459fff;
     border-radius: 15px;
 
+}
+
+.flex-end-mode, .flexcenter-mode, .flex-space-around-mode {
+    text-align: center;
+
+}
+.flex-end {
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-end-box, .flexcenter-box, .flex-space-around-box{
+    border: 10px solid #110040;
+    height: 68%;
+    width: 27%;
+    background-color: #459fff;
+    border-radius: 15px;
+}
+
+.flexcenter {
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space-around {
+    border: 10px solid #3e8fe6;
+    background-color: #220080;
+    border-radius: 15px;
+    height: 70%;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
