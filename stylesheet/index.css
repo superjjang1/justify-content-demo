@@ -32,6 +32,10 @@ align-items: center;
 
 }
 
+.flex-start.hidden {
+    display: none;
+}
+
 .flex-start-box {
     border: 10px solid #110040;
     height: 68%;
